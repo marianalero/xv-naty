@@ -2086,4 +2086,45 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-background-clip:text;
 
 }
+
+.text-rose-gold{
+  /* position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%; */
+  font-size: 50px;
+  background-image: linear-gradient(
+ to right,
+ #B86b77 0,
+        #eabfb9 22%, 
+ #f6cfca 45%,
+ #ffe8e5 50%,
+ #f6cfca 55%,
+ #eabfb9 78%,
+ #B86b77 100%
+ );
+  color:transparent;
+  -webkit-background-clip:text;
+
+}
+
+.h-rose-gold{
+  /* position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%; */
+  font-family: 'Great Vibes','cursive';
+  font-size: 50px;
+  background-image: linear-gradient(
+ to right,
+ #B86b77 0,
+        #eabfb9 22%, 
+ #f6cfca 45%,
+ #ffe8e5 50%,
+ #f6cfca 55%,
+ #eabfb9 78%,
+ #B86b77 100%
+ );
+  color:transparent;
+  -webkit-background-clip:text;
+
+}
 /*# sourceMappingURL=style.css.map */

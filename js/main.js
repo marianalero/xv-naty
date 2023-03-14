@@ -260,18 +260,21 @@
 	
 	const formatNumber = n => ("0" + n).slice(-2);
 	// Set the date we're counting down to
-		var countDownDate = new Date("Nov 10, 2023 12:00:00").getTime();
-
+	
+		var date =new Date("Nov 10, 2023 12:00:00");
+		var countDownDate = date.getTime();
 		// Update the count down every 1 second
 		var x = setInterval(function() {
 
 		// Get todays date and time
+		var datenow = new Date();
 		var now = new Date().getTime();
 
 		// Find the distance between now an the count down date
 		var distance = countDownDate - now;
 
 		// Time calculations for days, hours, minutes and seconds
+		var months =(date.getFullYear() - datenow.getFullYear()) * 12 + (date.getMonth() - datenow.getMonth());
 		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -282,10 +285,11 @@
 		// + minutes + "Minutes " + seconds + "Seconds ";
 
 		// Display the result in an element with id="demo"
-		document.getElementById("days").innerHTML = formatNumber(days) +"<br/> <span style='font-size: 20px;'>Días</span>";
-		document.getElementById("hours").innerHTML = formatNumber(hours) + "<br/> <span style='font-size: 20px;'>Hrs</span>";
-		document.getElementById("minutes").innerHTML = formatNumber(minutes) + "<br/> <span style='font-size: 20px;'>Mins</span>";
-		document.getElementById("seconds").innerHTML = formatNumber(seconds) + "<br/> <span style='font-size: 20px;'>Segs</span>";
+		document.getElementById("month").innerHTML = formatNumber(months) +"<br/> <span style='font-size: 16px;'>Meses</span>";
+		document.getElementById("days").innerHTML = formatNumber(days) +"<br/> <span style='font-size: 16px;'>Días</span>";
+		document.getElementById("hours").innerHTML = formatNumber(hours) + "<br/> <span style='font-size: 16px;'>Hrs</span>";
+		document.getElementById("minutes").innerHTML = formatNumber(minutes) + "<br/> <span style='font-size: 16px;'>Mins</span>";
+		document.getElementById("seconds").innerHTML = formatNumber(seconds) + "<br/> <span style='font-size: 16px;'>Segs</span>";
 
 		// If the count down is finished, write some text 
 		if (distance < 0) {
