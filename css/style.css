@@ -16,7 +16,7 @@ html{
   overflow-x: hidden;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.8;
@@ -27,13 +27,13 @@ body {
 }
 
 a {
-  color: #0E6655;
+  color: black;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #0E6655;
+  color: #B86b77;
   outline: none;
 }
 
@@ -62,7 +62,7 @@ p {
 }
 .texto{
   font-size: 16px;
-  color:#000;
+  color:black;
   text-transform: initial;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #qbootstrap-header .navbar-brand {
-    color: #0E6655 !important;
+    color: #B86b77 !important;
   }
   #qbootstrap-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #qbootstrap-header #navbar li a:hover {
-    color: #0E6655 !important;
+    color: #B86b77 !important;
   }
   #qbootstrap-header #navbar li a span:before {
     background: transparent !important;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   #qbootstrap-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #0E6655 !important;
+    color: #B86b77 !important;
   }
   #qbootstrap-header #navbar li.active a span:before {
     visibility: visible;
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0E6655;
+  background-color: #B86b77;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #qbootstrap-header.navbar-fixed-top .navbar-brand {
-  color: #0E6655;
+  color: #B86b77;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -221,12 +221,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li a:hover {
-  color: #0E6655;
+  color: #B86b77;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #0E6655;
+  color: #B86b77;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #qbootstrap-header .navbar-default .brand-slogan em {
-  color: #0E6655;
+  color: #B86b77;
   font-style: normal;
 }
 #qbootstrap-header a {
@@ -282,11 +282,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 .section-heading.colored .svg {
-  fill: #0E6655;
+  fill: #B86b77;
 }
 .section-heading h2 {
   font-size: 80px;
-  color: #0E6655;
+  color: #B86b77;
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
@@ -544,7 +544,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-slider-hero .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
-  background: #0E6655;
+  background: #B86b77;
 }
 #qbootstrap-slider-hero .flexslider .flex-direction-nav {
   display: none;
@@ -649,7 +649,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
-  background: #0E6655 !important;
+  background: #B86b77 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -665,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-couple h3 {
   font-size: 34px;
   font-family: "Great Vibes", cursive;
-  color: #0E6655;
+  color: #B86b77;
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-couple h3 {
@@ -673,7 +673,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-couple span {
-  color: #0E6655;
+  color: #B86b77;
   letter-spacing: 10px;
   text-transform: uppercase;
   font-size: 14px;
@@ -683,7 +683,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-couple .amp-center {
   font-size: 60px;
   margin-top: 100%;
-  color: #0E6655;
+  color: #B86b77;
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-couple .amp-center {
@@ -691,7 +691,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-couple .amp-center .colored .svg {
-  fill: #0E6655;
+  fill: #B86b77;
 }
 
 .qbootstrap-bg {
@@ -721,7 +721,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-countdown .section-heading .datewed {
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   font-family: 'Great Vibes';
 }
@@ -812,7 +812,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 .couple .desc h2 {
-  color: #0E6655;
+  color: #B86b77;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -965,7 +965,7 @@ h1, h2, h3, h4, h5, h6 {
 .timeline-title {
   margin-top: 0;
   font-size: 26px;
-  color: #0E6655;
+  color: #B86b77;
   margin-bottom: 30px;
 }
 
@@ -1078,7 +1078,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-testimonials .box-testimony a:hover, #qbootstrap-testimonials .box-testimony a:focus, #qbootstrap-testimonials .box-testimony a:active {
-  color: #0E6655;
+  color: #B86b77;
   text-decoration: none;
 }
 #qbootstrap-testimonials .box-testimony blockquote {
@@ -1114,7 +1114,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 56px;
   height: 56px;
   margin-top: -30px;
-  background: #0E6655;
+  background: #B86b77;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1199,7 +1199,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .wedding-events {
   background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgb(251,183,192, 0.35) 0px 5px 15px;
   
 }
 @media screen and (max-width: 768px) {
@@ -1260,7 +1260,7 @@ h1, h2, h3, h4, h5, h6 {
 .wedding-events .desc .icon i {
   color: #fff;
   padding: 15px;
-  background: #0E6655;
+  background: #B86b77;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1348,7 +1348,7 @@ h1, h2, h3, h4, h5, h6 {
 /* #qbootstrap-started .btn {
   height: 54px;
   border: none !important;
-  background: #0E6655;
+  background: #B86b77;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1457,7 +1457,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   height: 2px;
   width: 30px;
-  background: #0E6655;
+  background: #B86b77;
 }
 #qbootstrap-press .qbootstrap-press-item .qbootstrap-press-img {
   position: absolute;
@@ -1483,7 +1483,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .qbootstrap-nav-toggle.active i::before, .qbootstrap-nav-toggle.active i::after {
-  background: #0E6655;
+  background: #B86b77;
 }
 .qbootstrap-nav-toggle:hover, .qbootstrap-nav-toggle:focus, .qbootstrap-nav-toggle:active {
   outline: none;
@@ -1497,18 +1497,18 @@ h1, h2, h3, h4, h5, h6 {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #0E6655;
+  color: #B86b77;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #0E6655;
+  background: #B86b77;
   transition: all .2s ease-out;
 }
 .qbootstrap-nav-toggle i::before, .qbootstrap-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #0E6655;
+  background: #B86b77;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1627,17 +1627,27 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 8px;
 }
 .btn.btn-primary {
-  background: white;
-  color: black;
-  border: 1px solid black;
+
+  color: white;
+  border: 1px solid white;
+  background-image: linear-gradient(
+  to right,
+  #B86b77 0,
+          #eabfb9 22%, 
+  #f6cfca 45%,
+  #ffe8e5 50%,
+  #f6cfca 55%,
+  #eabfb9 78%,
+  #B86b77 100%
+  );
  
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   background-color: initial;
   background-position: 0 0;
-  color: black;
-  border: 2px solid black;
+  color: white;
+  border: 2px solid white;
   transform: scale(1.05) translateY(.125rem);
   font-weight: 700;
 }
@@ -1679,11 +1689,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none;
 }
 .social li a.social-box {
-  background: #0E6655;
+  background: #B86b77;
   color: #fff;
 }
 .social li a.social-circle {
-  background: #0E6655;
+  background: #B86b77;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1694,11 +1704,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #393e46 !important;
 }
 .social.social-box a {
-  background: #0E6655;
+  background: #B86b77;
   color: #fff;
 }
 .social.social-circle a {
-  background: #0E6655;
+  background: #B86b77;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1757,7 +1767,7 @@ h1, h2, h3, h4, h5, h6 {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #0E6655;
+  border-color: #B86b77;
 }
 
 .js .animate-box {
@@ -1793,7 +1803,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   width: 2px;
-  background: #0E6655;
+  background: #B86b77;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -1822,8 +1832,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 12px;
   top: calc(50% - 4px);
   right: -6px;
-  background: #0E6655;
-  border: 2px solid #0E6655;
+  background: #B86b77;
+  border: 2px solid #B86b77;
   border-radius: 16px;
   z-index: 1;
 }
@@ -1839,7 +1849,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   top: calc(50%);
   right: 4px;
-  background: #0E6655;
+  background: #B86b77;
   z-index: 1;
 }
 
@@ -1854,7 +1864,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #0E6655;
+  color: #B86b77;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -1875,11 +1885,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   padding: 9px 0;
   top: calc(50% - 30px);
-  border: 2px solid #0E6655;
+  border: 2px solid #B86b77;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #0E6655;
+  color: #B86b77;
   z-index: 1;
 }
 
@@ -1909,7 +1919,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
   font-size: 24px;
   font-weight: normal;
-  color: #0E6655;
+  color: #B86b77;
   text-align: end;
   
 }
@@ -1918,7 +1928,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
   font-size: 24px;
   font-weight: normal;
-  color: #0E6655;
+  color: #B86b77;
   text-align: start;
   
 }
@@ -1927,7 +1937,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
-  color: #0E6655;
+  color: #B86b77;
   font-weight: 700;
   margin-top: 30px;
   text-align:end;
@@ -1939,7 +1949,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
-  color: #0E6655;
+  color: #B86b77;
   font-weight: 700;
   margin-top: 30px;
   text-align:start;
@@ -1953,7 +1963,7 @@ h1, h2, h3, h4, h5, h6 {
   left: calc(50% - 10px);
   position: relative;
   font-size: 14px;
-  color: #0E6655;
+  color: #B86b77;
   font-weight: 700;
 }
 .div-title-cena{
@@ -1961,7 +1971,7 @@ h1, h2, h3, h4, h5, h6 {
   left: calc(50% - 35px);
   position: relative;
   font-size: 14px;
-  color: #0E6655;
+  color: #B86b77;
   font-weight: 700;
 }
 
@@ -1970,7 +1980,7 @@ h1, h2, h3, h4, h5, h6 {
   left: calc(50%);
   position: relative;
   font-size: 14px;
-  color: #0E6655;
+  color: #B86b77;
   font-weight: 700;
 }
 
@@ -1979,7 +1989,7 @@ h1, h2, h3, h4, h5, h6 {
   left: calc(50% - 60px);
   position: relative;
   font-size: 14px;
-  color: #0E6655;
+  color: #B86b77;
   font-weight: 700;
 }
 
@@ -2016,12 +2026,12 @@ h1, h2, h3, h4, h5, h6 {
   {
     /* left: calc(100% + 6px);  */
     width: 35px;
-    border-color: transparent #0E6655 transparent transparent;
+    border-color: transparent #B86b77 transparent transparent;
   }
   .intinerario-container.intinerario-left::before{
     /* right: calc(50% + 10px); */
     width: 35px;
-    border-color: transparent #0E6655 transparent transparent;
+    border-color: transparent #B86b77 transparent transparent;
   }
 
   .intinerario-container.intinerario-left .intinerario-date,
@@ -2053,7 +2063,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 10px 0;
     /* font-size:20px ; */
     font-weight: normal;
-    color: #0E6655;
+    color: #B86b77;
     text-align: center;
     
   }
@@ -2061,7 +2071,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 10px 0;
     /* font-size: 20px; */
     font-weight: normal;
-    color: #0E6655;
+    color: #B86b77;
     text-align: center;
     
   }
