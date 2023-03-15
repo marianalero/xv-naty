@@ -2073,7 +2073,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     color: #B86b77;
     text-align: center;
-    
   }
 }
 
@@ -2110,8 +2109,7 @@ h1, h2, h3, h4, h5, h6 {
  #ffe8e5 50%,
  #f6cfca 55%,
  #eabfb9 78%,
- #B86b77 100%
- );
+ #B86b77 100% );
   color:transparent;
   -webkit-background-clip:text;
 
@@ -2123,7 +2121,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%; */
   font-family: 'Great Vibes','cursive';
   font-size: 50px;
-  background-image: linear-gradient(
+  background-image:linear-gradient(
  to right,
  #B86b77 0,
         #eabfb9 22%, 
