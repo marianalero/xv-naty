@@ -259,45 +259,36 @@
 	};
 	
 	const formatNumber = n => ("0" + n).slice(-2);
-	// Set the date we're counting down to
-	
-		var date =new Date("Nov 10, 2023 12:00:00");
-		var countDownDate = date.getTime();
-		// Update the count down every 1 second
-		var x = setInterval(function() {
+	var end = new Date('10/21/2023 4:00 PM');
 
-		// Get todays date and time
-		var datenow = new Date();
-		var now = new Date().getTime();
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
 
-		// Find the distance between now an the count down date
-		var distance = countDownDate - now;
+	function showRemaining() {
+        var now = new Date();
+        var distance = end - now;
+        if (distance < 0) {
 
-		// Time calculations for days, hours, minutes and seconds
-		var months =(date.getFullYear() - datenow.getFullYear()) * 12 + (date.getMonth() - datenow.getMonth());
-		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            clearInterval(timer);
+            document.getElementById('countdown').innerHTML = 'EXPIRED!';
 
-		// Display the result in an element with id="demo"
-		// document.getElementById("demo").innerHTML = days + "Days " + hours + "Hours "
-		// + minutes + "Minutes " + seconds + "Seconds ";
+            return;
+        }
+        var days = Math.floor(distance / _day);
+        var hours = Math.floor((distance % _day) / _hour);
+        var minutes = Math.floor((distance % _hour) / _minute);
+        var seconds = Math.floor((distance % _minute) / _second);
 
-		// Display the result in an element with id="demo"
-		document.getElementById("month").innerHTML = formatNumber(months) +"<br/> <span style='font-size: 16px;'>Meses</span>";
-		document.getElementById("days").innerHTML = formatNumber(days) +"<br/> <span style='font-size: 16px;'>Días</span>";
-		document.getElementById("hours").innerHTML = formatNumber(hours) + "<br/> <span style='font-size: 16px;'>Hrs</span>";
-		document.getElementById("minutes").innerHTML = formatNumber(minutes) + "<br/> <span style='font-size: 16px;'>Mins</span>";
-		document.getElementById("seconds").innerHTML = formatNumber(seconds) + "<br/> <span style='font-size: 16px;'>Segs</span>";
+        document.getElementById("days").innerHTML = days +"<br/> <span style='font-size: 20px;'>Días</span>";
+		document.getElementById("hours").innerHTML = hours + "<br/> <span style='font-size: 20px;'>Hrs</span>";
+		document.getElementById("minutes").innerHTML = minutes + "<br/> <span style='font-size: 20px;'>Mins</span>";
+		document.getElementById("seconds").innerHTML = seconds + "<br/> <span style='font-size: 20px;'>Segs</span>";
+    }
 
-		// If the count down is finished, write some text 
-		if (distance < 0) {
-		 clearInterval(x);
-		 document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
-		}
-		}, 1000);	
-	
+    timer = setInterval(showRemaining, 1000);
 		
 	var bgVideo = function() {
 		$('.player').mb_YTPlayer();
